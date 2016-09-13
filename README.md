@@ -1,8 +1,8 @@
-**WDI Fundamentals Unit 6**
+#Command Line Fundamentals
 
 * * *
 
-##### By the end of this Unit, you'll be able to:
+#### By the end of this Unit, you'll be able to:
 
 *   Differentiate between a command line interface and a graphical user interface
 *   Summarize a basic filesystem structure
