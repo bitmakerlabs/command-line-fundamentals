@@ -37,11 +37,11 @@ If you're following along on _Mac OS X or Ubuntu Linux_ feel free to skip the fo
 
 *   Navigate to the [git website](https://git-scm.com/) and double click on "Windows".
 
-![:Git Website](../assets/chapter1/git_bash/download_1.jpg)
+![:Git Website](http://fundamentals.generalassemb.ly/assets/chapter1/git_bash/download_1.jpg)
 
 *   Your download should begin.
 
-![:Git Website](../assets/chapter1/git_bash/download_2.jpg)
+![:Git Website](http://fundamentals.generalassemb.ly/assets/chapter1/git_bash/download_2.jpg)
 
 ### Installing Git Bash
 
@@ -50,36 +50,36 @@ Follow the prompts in the installation window.
 *   Double click on the .exe file that you just downloaded to begin setup.
 *   Accept the terms of use.
 
-![:Git Website](../assets/chapter1/git_bash/install_2.jpg)
+![:Git Website](http://fundamentals.generalassemb.ly/assets/chapter1/git_bash/install_2.jpg)
 
 *   Choose a location to install files.
 
-![:Git Website](../assets/chapter1/git_bash/install_3.jpg)
+![:Git Website](http://fundamentals.generalassemb.ly/assets/chapter1/git_bash/install_3.jpg)
 
 *   Select the following options in the "Select Components" prompt.
 
-![:Git Website](../assets/chapter1/git_bash/install_4.jpg)
+![:Git Website](http://fundamentals.generalassemb.ly/assets/chapter1/git_bash/install_4.jpg)
 
 *   Select a start menu folder (optional).
 *   Select the "Use Git from Git Bash Only" option.
 
-![:Git Website](../assets/chapter1/git_bash/install_6.jpg)
+![:Git Website](http://fundamentals.generalassemb.ly/assets/chapter1/git_bash/install_6.jpg)
 
 *   Select the "Checkout Windows-style, commit Unix-style line endings" option.
 
-![:Git Website](../assets/chapter1/git_bash/install_7.jpg)
+![:Git Website](http://fundamentals.generalassemb.ly/assets/chapter1/git_bash/install_7.jpg)
 
 *   Select "Use MinTTY (the default terminal of MSYS2)".
 
-![:Git Website](../assets/chapter1/git_bash/install_8.jpg)
+![:Git Website](http://fundamentals.generalassemb.ly/assets/chapter1/git_bash/install_8.jpg)
 
 *   Check "Enable file system caching"
 
-![:Git Website](../assets/chapter1/git_bash/install_9.jpg)
+![:Git Website](http://fundamentals.generalassemb.ly/assets/chapter1/git_bash/install_9.jpg)
 
 *   Wait for files to install!
 
-![:Git Website](../assets/chapter1/git_bash/install_10.jpg)
+![:Git Website](http://fundamentals.generalassemb.ly/assets/chapter1/git_bash/install_10.jpg)
 
 <a name="terminal"></a>
 
@@ -87,7 +87,7 @@ Follow the prompts in the installation window.
 
 **Mac/Ubuntu users:** When you open Terminal, you will see a window like this:
 
-![:Blank Console](../assets/Graphics/terminal_blank.gif)
+![:Blank Console](http://fundamentals.generalassemb.ly/assets/Graphics/terminal_blank.gif)
 
 > Practice using Spotlight to open files and applications on your computer. It'll make you efficient as you navigate back and forth often between Terminal, your text editor, and your browser.
 
@@ -95,7 +95,7 @@ Open up a terminal with Bash. To do this on a Mac, press **⌘ + Space** to brin
 
 **Windows users:** When you open Git Bash, you will see a window like this:
 
-![:Git Website](../assets/chapter1/git_bash/git_bash.gif)
+![:Git Website](http://fundamentals.generalassemb.ly/assets/chapter1/git_bash/git_bash.gif)
 
 Double click on the Git Bash icon to open a new session.
 
@@ -116,27 +116,27 @@ The Terminal window is where you'll tell the computer what to do, and where the 
 
 Before we tell the computer what to do, it's important we understand what it is we will be manipulating. You're probably used to seeing a graphical representation of files and folders as icons in a list or in columns.
 
-![Folders in the GUI](../assets/chapter1/FileSystem.gif)
+![Folders in the GUI](http://fundamentals.generalassemb.ly/assets/chapter1/FileSystem.gif)
 
 The way your computer organizes and stores files is called a **file system**. Let's take a minute to learn the vocabulary developers use to talk about the **file system**.
 
 *   In programming-speak, all folders are called **directories**.
 
-![Directories](../assets/chapter1/directory.png)
+![Directories](http://fundamentals.generalassemb.ly/assets/chapter1/directory.png)
 
 *   A directory within another directory is called a **subdirectory**.
 
 *   A directory that contains a subdirectory or file is called a **parent directory**.
 
-![Subdirectory and Parent Directory](../assets/chapter1/subdirectories.png)
+![Subdirectory and Parent Directory](http://fundamentals.generalassemb.ly/assets/chapter1/subdirectories.png)
 
 *   The top-most directory of the filesystem is called the **root directory**. All files and directories are contained within the **root directory**, so they all share the same root.
 
-![Root Directory](../assets/chapter1/root_directory.png)
+![Root Directory](http://fundamentals.generalassemb.ly/assets/chapter1/root_directory.png)
 
 For the purposes of this lesson, the root directory of everything on your computer is your home directory. It's aptly represented in the GUI by a house icon (if you're using a Mac).
 
-![Home Directory](../assets/chapter1/home.png)
+![Home Directory](http://fundamentals.generalassemb.ly/assets/chapter1/home.png)
 
 * * *
 
