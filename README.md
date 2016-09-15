@@ -9,6 +9,28 @@
 *   Open a file in a text editor and make changes from the command line
 *   Identify when you might want to use absolute versus relative paths
 
+Feeling good? Let's do some more practice.
+
+* * *
+
+##Your Turn
+
+Go ahead an open up "Terminal" in any of the following ways.
+
+1 . Navigate to your Applications folder and double-click on Terminal.
+
+![img](http://fundamentals.generalassemb.ly/assets/Graphics/where_to_find_terminal.gif))
+
+2 . Press <kbd>Command</kbd> + <kbd>Space</kbd> on your keyboard to bring up Spotlight – a tool that allows you to quickly find files and applications on our computer. Inside the search bar, type "Terminal", and select the Terminal application.
+
+![img](http://fundamentals.generalassemb.ly/assets/Graphics/where_to_find_terminal_spotlight.gif)
+
+Great! Now everyone who can see over your shoulder will think you're a badass hacker.
+
+* * *
+
+[On to the next lesson.](05_lesson.html)
+
 ## Think Like a Programmer
 
 Most computer users move their mouse, click on icons, drag and drop files from one folder to another.
@@ -271,8 +293,33 @@ Will list _all_ files in a directory, which includes hidden files (files whose n
 
 Calls the command `cd` to change directory. It is provided the option of where to navigate to.
 
+Give it a try!
+
 * * *
 
+## Your Turn
+
+We've gone ahead and created a new directory for you, called _World_. Download it [here](http://generalassembly.github.io/prework/assets/activity/World.zip).
+
+When you double-click on the zip file, it will create a new folder next to the zip file in your Downloads folder.
+
+Now that you can picture where the file is located, open the Terminal application
+
+Using the command line alone,
+
+1.  Navigate into your `Downloads` directory
+
+2.  Move into the `World` directory from the `Downloads` directory
+
+3.  List the contents of the `World` directory
+
+4.  In one of the six continents within the `World` directory is a hidden file, `.carmen_sandiego.png`. Using only the command line, find out where in the World is Carmen Sandiego.
+
+_Don't delete the World folder yet! We'll be working with it in another exercise in this unit._
+
+> _Stuck? Check out the solutions at the bottom to see what you can do._
+
+* * *
 
 ## Creating files and folders
 
@@ -376,4 +423,201 @@ The same principle applies when removing a folder with files. The `rm -r` comman
 
 Note that the `mv` command does not need a `-r` option to move folders.
 
+Here's another exercise for you - give it a shot.
+
 * * *
+
+* * *
+
+##  Your Turn
+
+Part 1:
+
+1.  Open up the terminal application
+
+2.  Navigate into your Downloads directory
+
+3.  Move the World directory that you downloaded in the previous from Downloads to your home directory.
+
+4.  Check to see if you successfully moved the World directory by listing the contents of your home directory
+
+Part 2:
+
+You may have noticed that we neglected to include Antarctica in the `World` directory. Go ahead and correct this mistake straight from command line:
+
+1.  Make sure you're in the `World` directory within your home directory
+
+2.  Make a new directory titled `Antarctica` inside the `World` directory
+
+3.  To be sure you created the directory in the right place, list the contents of the `World` directory
+
+4.  If you haven't already, change back into the `World` directory
+
+5.  List the contents of `South_America`. There should be three country directories, Argentina, Brazil, and Chile.
+
+6.  Move the contents of `South_America` into the `North_America` folder
+
+7.  Delete the now empty `South_America` directory
+
+8.  Change the name of `North_America` to `Americas`
+
+> Stuck? Check out the [solutions] at the bottom of the document to see what you can do.
+
+* * *
+
+## Command Line Cheat Sheet
+
+#### Command Line
+
+*   A text-based interface.
+*   _Synonyms_: command-line interface (CLI), console
+
+#### Terminal
+
+*   An OSX application that provides text-based access to the operating system.
+*   Any device or application used for data entry and display in a computer system.
+*   _Synonyms_: client, computer terminal, terminal emulator
+
+#### File System
+
+*   A file system is a systematic way to control how information is stored and retrieved. It describes where one piece of information stops and where the next one begins. Each file system has its own structure and logic.
+*   _Synonyms_: NTFS (Windows' File System), HFS+ (Apple's File System), file allocation table, GFS (Global File System)
+
+#### Directory
+
+*   An organizational unit, or container, used to organize computer files into a hierarchical structure.
+*   _Synonyms_: folder, catalog, drawer
+
+#### Path
+
+*   A sequence of symbols and names that identifies a file or directory. The path always starts from your working directory or from the root directory, and each subdirectory is followed by a forward slash.
+*   An _absolute_ or full path begins with the root directory and specifies every directory above the terminating file or directory name.
+*   A _relative_ path does not include the root or parent directory names, and refers to a file or directory directly below the current working directory.
+*   _Synonyms_: pathname
+
+#### Command
+
+*   The action we want the computer to take; always a single word.
+*   _Synonyms_: utility
+
+#### Option
+
+*   Follows the "command" in a command line; used to modify the behavior of the command in some way.
+*   _Synonyms_: flag
+
+#### Argument
+
+*   Follows the "command" and "options" (if any) in a command line and is used to explain what we want the command to act on.
+*   The number of arguments used generally depends on the command: some don't need arguments, some require exactly one argument, some require lots of arguments, and some are flexible in the number they can take.
+
+<table>
+
+<thead>
+
+<tr>
+
+<th>Command</th>
+
+<th>Description</th>
+
+</tr>
+
+</thead>
+
+<tbody>
+
+<tr>
+
+<td>`pwd -options`</td>
+
+<td>Prints the working directory; returns the absolute path name of the current directory</td>
+
+</tr>
+
+<tr>
+
+<td>`ls [-options] [path/to/directory]`</td>
+
+<td>Lists directory contents</td>
+
+</tr>
+
+<tr>
+
+<td>`cd [-options] [path/to/directory]`</td>
+
+<td>Changes the current working directory to the specified directory</td>
+
+</tr>
+
+<tr>
+
+<td>`mkdir [-options] [path/to/directory]`</td>
+
+<td>Makes a new directory</td>
+
+</tr>
+
+<tr>
+
+<td>`rm -r [path/to/file] [path/to/file] ...`</td>
+
+<td>Removes directories or files permanently</td>
+
+</tr>
+
+<tr>
+
+<td>`mv [-options] [path/to/file] [path/to/directory]`</td>
+
+<td>Moves directories or files to a new local</td>
+
+</tr>
+
+<tr>
+
+<td>`mv [-options] [path/to/file] [NEW_FILE_NAME]`</td>
+
+<td>Renames a file or directory</td>
+
+</tr>
+
+</tbody>
+
+</table>
+
+On Mac, your Terminal comes with a manual, and to access more (_a lot more_) information about any command, type `man` followed by the command name and press <kbd>Enter</kbd>:
+
+![manual](http://fundamentals.generalassemb.ly/assets/chapter1/terminal_man.gif)
+
+You can scroll through a manual entry with the arrow keys or space bar. To quit this view and return to your prompt, just type `q`.
+
+* * *
+
+## Solutions
+### 6.2.1
+
+1.  `$ cd Downloads`
+2.  `$ cd World`
+3.  `$ ls`
+4.  `$ ls -a Europe`
+
+### 6.2.1
+
+Part 1:
+
+1.  Command + Space. Inside search bar type "Terminal"
+2.  `$ cd Downloads`
+3.  `$ mv World ..` (will move to parent directory, in this case the Desktop)
+4.  `$ ../` (move back to the parent directory) and then `$ ls`
+
+Part 2:
+
+1.  `$ cd World`
+2.  `$ mkdir Antarctica`
+3.  `$ ls`
+4.  `$ cd World (only if pwd if not World)`
+5.  `$ cd South America` `$ ls`
+6.  `$ mv Argentina ../North_America` `$ mv Chile ../North_America` `$ mv Brazil ../North_America`
+7.  `$../ (back to World Directory)` `$ rm -r South_America`
+8.  `$ mkdir Americas` `mv North_America Americas`
