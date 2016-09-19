@@ -1,4 +1,4 @@
-#Command Line Fundamentals
+# Command Line Fundamentals
 
 * * *
 
@@ -9,27 +9,9 @@
 *   Open a file in a text editor and make changes from the command line
 *   Identify when you might want to use absolute versus relative paths
 
-Feeling good? Let's do some more practice.
+Feeling good? Let's do some practice.
 
 * * *
-
-##Your Turn
-
-Go ahead an open up "Terminal" in any of the following ways.
-
-1 . Navigate to your Applications folder and double-click on Terminal.
-
-![img](http://fundamentals.generalassemb.ly/assets/Graphics/where_to_find_terminal.gif))
-
-2 . Press <kbd>Command</kbd> + <kbd>Space</kbd> on your keyboard to bring up Spotlight – a tool that allows you to quickly find files and applications on our computer. Inside the search bar, type "Terminal", and select the Terminal application.
-
-![img](http://fundamentals.generalassemb.ly/assets/Graphics/where_to_find_terminal_spotlight.gif)
-
-Great! Now everyone who can see over your shoulder will think you're a badass hacker.
-
-* * *
-
-[On to the next lesson.](05_lesson.html)
 
 ## Think Like a Programmer
 
@@ -49,77 +31,6 @@ We'll access the command line using a terminal application, which can be found o
 
 There are many different types of shells, and some are more similar to Bash than others. Fundamentals will not explore the shells that come with Windows computers, for example, because they use a different set of commands.
 
-## Getting started with Git Bash (Windows Users)
-
-If you're a _Windows_ user, we will be installing **Git Bash**, an environment that will allow you to use Bash. It will create a prompt that is similar to Mac OS X and Ubuntu Linux, allowing you to follow along in Fundamentals. Once you join us for WDI, you will need to use a Mac or Linux environment. Reach out to your local producer if you have any questions.
-
-If you're following along on _Mac OS X or Ubuntu Linux_ feel free to skip the following section on installing Git Bash.
-
-### Downloading Git Bash
-
-*   Navigate to the [git website](https://git-scm.com/) and double click on "Windows".
-
-![:Git Website](http://fundamentals.generalassemb.ly/assets/chapter1/git_bash/download_1.jpg)
-
-*   Your download should begin.
-
-![:Git Website](http://fundamentals.generalassemb.ly/assets/chapter1/git_bash/download_2.jpg)
-
-### Installing Git Bash
-
-Follow the prompts in the installation window.
-
-*   Double click on the .exe file that you just downloaded to begin setup.
-*   Accept the terms of use.
-
-![:Git Website](http://fundamentals.generalassemb.ly/assets/chapter1/git_bash/install_2.jpg)
-
-*   Choose a location to install files.
-
-![:Git Website](http://fundamentals.generalassemb.ly/assets/chapter1/git_bash/install_3.jpg)
-
-*   Select the following options in the "Select Components" prompt.
-
-![:Git Website](http://fundamentals.generalassemb.ly/assets/chapter1/git_bash/install_4.jpg)
-
-*   Select a start menu folder (optional).
-*   Select the "Use Git from Git Bash Only" option.
-
-![:Git Website](http://fundamentals.generalassemb.ly/assets/chapter1/git_bash/install_6.jpg)
-
-*   Select the "Checkout Windows-style, commit Unix-style line endings" option.
-
-![:Git Website](http://fundamentals.generalassemb.ly/assets/chapter1/git_bash/install_7.jpg)
-
-*   Select "Use MinTTY (the default terminal of MSYS2)".
-
-![:Git Website](http://fundamentals.generalassemb.ly/assets/chapter1/git_bash/install_8.jpg)
-
-*   Check "Enable file system caching"
-
-![:Git Website](http://fundamentals.generalassemb.ly/assets/chapter1/git_bash/install_9.jpg)
-
-*   Wait for files to install!
-
-![:Git Website](http://fundamentals.generalassemb.ly/assets/chapter1/git_bash/install_10.jpg)
-
-<a name="terminal"></a>
-
-## Get Started Using Terminal
-
-**Mac/Ubuntu users:** When you open Terminal, you will see a window like this:
-
-![:Blank Console](http://fundamentals.generalassemb.ly/assets/Graphics/terminal_blank.gif)
-
-> Practice using Spotlight to open files and applications on your computer. It'll make you efficient as you navigate back and forth often between Terminal, your text editor, and your browser.
-
-Open up a terminal with Bash. To do this on a Mac, press **⌘ + Space** to bring up Spotlight, then type in "terminal" and press **Return**.
-
-**Windows users:** When you open Git Bash, you will see a window like this:
-
-![:Git Website](http://fundamentals.generalassemb.ly/assets/chapter1/git_bash/git_bash.gif)
-
-Double click on the Git Bash icon to open a new session.
 
 * * *
 
@@ -131,8 +42,6 @@ The Terminal window is where you'll tell the computer what to do, and where the 
 
 *   The **username** of the person logged in precedes the prompt, and as you can see above, this user is named _Sarah_.
 
-* * *
-* * *
 
 ## How Your Computer is Organized
 
@@ -177,6 +86,38 @@ Your computer understands two kinds of addresses or paths: absolute and relative
 *   On the other hand, if you were standing on a street corner in Anchorage, Alaska and wanted to head to the library, you wouldn't need the latitude and longitude. You could just jump in a taxi and say "Please head back two blocks, cut over to 3rd, and then turn right on Main Street." **In this case, you're defining where you're going based on your current location, so you're using a relative path.**
 
 > It's important to know where you're working from so that you know whether to communicate with your computer using absolute or relative paths.
+
+
+* * *
+
+## Get Started Using Terminal
+
+
+Go ahead an open up "Terminal" in any of the following ways.
+
+1 . Navigate to your Applications folder and double-click on Terminal.
+
+![img](http://fundamentals.generalassemb.ly/assets/Graphics/where_to_find_terminal.gif))
+
+2 . Press <kbd>Command</kbd> + <kbd>Space</kbd> on your keyboard to bring up Spotlight – a tool that allows you to quickly find files and applications on our computer. Inside the search bar, type "Terminal", and select the Terminal application.
+
+![img](http://fundamentals.generalassemb.ly/assets/Graphics/where_to_find_terminal_spotlight.gif)
+
+Great! Now everyone who can see over your shoulder will think you're a badass hacker.
+
+**Mac/Ubuntu users:** When you open Terminal, you will see a window like this:
+
+![:Blank Console](http://fundamentals.generalassemb.ly/assets/Graphics/terminal_blank.gif)
+
+> Practice using Spotlight to open files and applications on your computer. It'll make you efficient as you navigate back and forth often between Terminal, your text editor, and your browser.
+
+Open up a terminal with Bash. To do this on a Mac, press **⌘ + Space** to bring up Spotlight, then type in "terminal" and press **Return**.
+
+**Windows users:** When you open Git Bash, you will see a window like this:
+
+![:Git Website](http://fundamentals.generalassemb.ly/assets/chapter1/git_bash/git_bash.gif)
+
+Double click on the Git Bash icon to open a new session.
 
 * * *
 
